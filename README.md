@@ -6,18 +6,17 @@ Official documentation is here: https://dev.jamovi.org/
 
 ## TL;DR
 
-Briefly:
-
 - Use this repo as template: https://github.com/sbalci/jamoviTemplate to generate a new repo
 
 - Use `R >= 4.0.2`
 
 - Current package repository is: https://cran.microsoft.com/snapshot/2020-08-24
 
-- Install jamovi from this link: https://www.jamovi.org/download.html  
-Get the latest one 1.6.3
+- Install jamovi
 
-- If using mac use this jamovi for development: https://www.jamovi.org/downloads/jamovi-unsigned.zip
+-- Get the latest (1.6.3) https://www.jamovi.org/download.html  
+
+-- If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
 
 - Install `jmvtools` package with:
 
@@ -25,6 +24,7 @@ Get the latest one 1.6.3
 install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
 ```
 
+- Install jamovi package family:
 
 ```r
 options(repos = c('https://cran.microsoft.com/snapshot/2020-08-24'))
@@ -68,20 +68,16 @@ suppressPackageStartupMessages(library('devtools'))
 ```
 
 
+- Locate jamovi bin folder:
+
+`jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`  
+
+on mac `jmvtools::check("~/Applications/jamovi.app")`  
 
 
+- Inside this repo folder in R run `jmvtools::install()`
 
-
-- locate jamovi bin folder via
-
-`jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`
-
-on mac `jmvtools::check("~/Applications/jamovi.app")`
-
-
-- inside this repo folder in R run `jmvtools::install()`
-
-- it will produce a file named jamoviTemplate.jmo and install this module to jamovi
+- A file named jamoviTemplate.jmo and install this module to jamovi
 
 - The repo is like an R package except `jamovi` folder. 
 
@@ -128,14 +124,14 @@ https://github.com/sbalci/ClinicoPathJamoviModule
 delete these files:
 
 
-jamoviTemplate/
-├── R/
-│   ├── neofun.b.R
-│   └── neofun.h.R
-├── jamovi/
-│   ├── neofun.a.yaml
-│   ├── neofun.r.yaml
-│   └── neofun.u.yaml
+jamoviTemplate/  
+├── R/  
+│   ├── neofun.b.R  
+│   └── neofun.h.R  
+├── jamovi/  
+│   ├── neofun.a.yaml  
+│   ├── neofun.r.yaml  
+│   └── neofun.u.yaml  
 
 
 
