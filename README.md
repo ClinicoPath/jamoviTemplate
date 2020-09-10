@@ -1,6 +1,6 @@
 # jamoviTemplate
 
-# ‘A beginners guide to [jamovi](https://www.jamovi.org) modules’
+# a beginners guide to [jamovi](https://www.jamovi.org) modules
 
 Official documentation is here: https://dev.jamovi.org/
 
@@ -13,10 +13,8 @@ Official documentation is here: https://dev.jamovi.org/
 - Current package repository is: https://cran.microsoft.com/snapshot/2020-08-24
 
 - Install jamovi
-
-Get the latest (1.6.3) https://www.jamovi.org/download.html  
-
-If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
+    - Get the latest (1.6.3) https://www.jamovi.org/download.html  
+    - If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
 
 - Install `jmvtools` package with:
 
@@ -71,10 +69,8 @@ suppressPackageStartupMessages(library('devtools'))
 </details>
 
 - Locate jamovi bin folder:
-
-windows: `jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`  
-
-mac: `jmvtools::check("~/Applications/jamovi.app")`  
+    - windows: `jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`  
+    - mac: `jmvtools::check("~/Applications/jamovi.app")`  
 
 
 - Inside this repo folder in R run `jmvtools::install()`
@@ -84,17 +80,15 @@ mac: `jmvtools::check("~/Applications/jamovi.app")`
 - The repo is like an R package except `jamovi` folder. 
 
 - You need to edit `R/...b.R` files.
-
-https://dev.jamovi.org/tuts0104-implementing-an-analysis.html  
-
-https://dev.jamovi.org/tuts0105-debugging-an-analysis.html  
+    - https://dev.jamovi.org/tuts0104-implementing-an-analysis.html  
+    - https://dev.jamovi.org/tuts0105-debugging-an-analysis.html  
 
 - run `jmvtools::install()` again.
 
-Let [me](https://github.com/sbalci) know how it goes :)
+- Let [me](https://github.com/sbalci) know how it goes :)
 
 
-## Add Analysis
+## add Analysis
 
 ```r
 jmvtools::addAnalysis(name = 'neofun', title = 'New Function')
@@ -112,12 +106,10 @@ See: [jamovi working structure](https://docs.google.com/presentation/d/e/2PACX-1
 
 ## need inspiration?
 
-- all code is available:
-
+- all code is available:  
 https://github.com/jonathon-love/jamovi-library/blob/master/modules.yaml
 
-- check out my codes:
-
+- check out my codes:  
 https://github.com/sbalci/ClinicoPathJamoviModule
 
 
