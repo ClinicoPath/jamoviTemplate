@@ -1,7 +1,7 @@
 ---
 name:    Example00
 title:   Example 0
-menuGroup: ClinicoPath
+menuGroup: jamoviTemplate
 version: "1.0.0"
 jas: '1.2'
 

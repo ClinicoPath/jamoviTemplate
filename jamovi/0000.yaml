@@ -20,13 +20,13 @@ analyses:
   - title: Age Pyramid
     name: agepyramid
     ns: jamoviTemplate
-    menuGroup: Exploration
+    menuGroup: jamoviTemplate
     menuSubgroup: ClinicoPath Descriptive Plots
     menuTitle: Age Pyramid
   - title: Medical Decision Calculator
     name: decisioncalculator
     ns: jamoviTemplate
-    menuGroup: meddecide
+    menuGroup: jamoviTemplate
     menuSubgroup: Decision
     menuTitle: Medical Decision Calculator
     menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
@@ -34,32 +34,32 @@ analyses:
   - title: Example 0
     name: Example00
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 0
   - title: Example 1
     name: Example01
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 1
   - title: Example 2
     name: Example02
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 2
   - title: Example 3
     name: Example03
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 3
   - title: Example 4
     name: Example04
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 4
   - title: Example 5
     name: Example05
     ns: jamoviTemplate
-    menuGroup: ClinicoPath
+    menuGroup: jamoviTemplate
     menuTitle: Example 5
 usesNative: true
 minApp: 1.0.8
