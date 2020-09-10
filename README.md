@@ -1,6 +1,6 @@
 # jamoviTemplate
 
-# ‘A beginners guide to jamovi modules’
+# ‘A beginners guide to [jamovi](https://www.jamovi.org) modules’
 
 Official documentation is here: https://dev.jamovi.org/
 
@@ -24,7 +24,8 @@ If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
 install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
 ```
 
-- Install jamovi package family:
+<details>
+ <summary>- Install jamovi package family:</summary>
 
 ```r
 options(repos = c('https://cran.microsoft.com/snapshot/2020-08-24'))
@@ -67,12 +68,13 @@ suppressPackageStartupMessages({
 suppressPackageStartupMessages(library('devtools'))
 ```
 
+</details>
 
 - Locate jamovi bin folder:
 
-`jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`  
+windows: `jmvtools::check("C://Program Files//jamovi//bin")` I recommend changing folder name from default `jamovi x.x` to `jamovi`  
 
-on mac `jmvtools::check("~/Applications/jamovi.app")`  
+mac: `jmvtools::check("~/Applications/jamovi.app")`  
 
 
 - Inside this repo folder in R run `jmvtools::install()`
@@ -105,7 +107,7 @@ If you want to use devtools, remove `NAMESPACE` file.
 
 ## how jamovi module functions
 
-See: [jamovi working structure](https://docs.google.com/presentation/d/1M2q353IHClubpBzbtF-GVRBTRxVHnkNAgQpwMnq1UrM/edit?usp=sharing)
+See: [jamovi working structure](https://docs.google.com/presentation/d/e/2PACX-1vTfA7dL5y_PzY5L-f8FRxaqvKMME5pcDCbXtWk5-FUNCGJyFKpGJEp8ES9rAge0CbI3Gcbi7Emv4e-S/pub?start=true&loop=true&delayms=3000)
 
 
 ## need inspiration?
