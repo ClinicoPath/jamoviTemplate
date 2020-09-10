@@ -121,3 +121,30 @@ https://github.com/jonathon-love/jamovi-library/blob/master/modules.yaml
 - check out my codes:
 
 https://github.com/sbalci/ClinicoPathJamoviModule
+
+
+## how to remove functions?
+
+delete these files:
+
+
+jamoviTemplate/
+├── R/
+│   ├── neofun.b.R
+│   └── neofun.h.R
+├── jamovi/
+│   ├── neofun.a.yaml
+│   ├── neofun.r.yaml
+│   └── neofun.u.yaml
+
+
+
+also delete this portion from `analysis` portion of `jamovi/0000.yaml`
+
+```yaml
+  - title: New Function
+    name: neofun
+    ns: jamoviTemplate
+    menuGroup: jamoviTemplate
+    menuTitle: New Function
+```
