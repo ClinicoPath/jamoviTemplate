@@ -23,14 +23,6 @@ analyses:
     menuGroup: jamoviTemplate
     menuSubgroup: ClinicoPath Descriptive Plots
     menuTitle: Age Pyramid
-  - title: Medical Decision Calculator
-    name: decisioncalculator
-    ns: jamoviTemplate
-    menuGroup: jamoviTemplate
-    menuSubgroup: Decision
-    menuTitle: Medical Decision Calculator
-    menuSubtitle: 'Sensitivity, Specificity, PPV, NPV, ...'
-    description: Function for Medical Decision Calculator.
   - title: Example 0
     name: Example00
     ns: jamoviTemplate
