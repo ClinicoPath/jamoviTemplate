@@ -123,15 +123,15 @@ https://github.com/sbalci/ClinicoPathJamoviModule
 
 delete these files:
 
-
-jamoviTemplate/  
-├── R/  
-│   ├── neofun.b.R  
-│   └── neofun.h.R  
-├── jamovi/  
-│   ├── neofun.a.yaml  
-│   ├── neofun.r.yaml  
-│   └── neofun.u.yaml  
+.
+└── jamoviTemplate/  
+    ├── R/  
+    │   ├── neofun.b.R  
+    │   └── neofun.h.R  
+    └── jamovi/  
+        ├── neofun.a.yaml  
+        ├── neofun.r.yaml  
+        └── neofun.u.yaml  
 
 
 
