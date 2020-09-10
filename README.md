@@ -88,7 +88,7 @@ suppressPackageStartupMessages(library('devtools'))
 - Let [me](https://github.com/sbalci) know how it goes :)
 
 
-## add Analysis
+## add analysis
 
 ```r
 jmvtools::addAnalysis(name = 'neofun', title = 'New Function')
@@ -96,12 +96,12 @@ jmvtools::addAnalysis(name = 'neofun', title = 'New Function')
 
 ## using devtools
 
-If you want to use devtools, remove `NAMESPACE` file. 
+- If you want to use devtools, remove `NAMESPACE` file. 
 
 
 ## how jamovi module functions
 
-See: [jamovi working structure](https://docs.google.com/presentation/d/e/2PACX-1vTfA7dL5y_PzY5L-f8FRxaqvKMME5pcDCbXtWk5-FUNCGJyFKpGJEp8ES9rAge0CbI3Gcbi7Emv4e-S/pub?start=true&loop=true&delayms=3000)
+- See: [jamovi working structure](https://docs.google.com/presentation/d/e/2PACX-1vTfA7dL5y_PzY5L-f8FRxaqvKMME5pcDCbXtWk5-FUNCGJyFKpGJEp8ES9rAge0CbI3Gcbi7Emv4e-S/pub?start=true&loop=true&delayms=3000)
 
 
 ## need inspiration?
