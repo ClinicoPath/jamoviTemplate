@@ -23,7 +23,7 @@ install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-
 ```
 
 <details>
- <summary>- Install jamovi package family:</summary>
+ <summary>    - Install jamovi package family:</summary>
 
 ```r
 options(repos = c('https://cran.microsoft.com/snapshot/2020-08-24'))
