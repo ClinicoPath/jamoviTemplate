@@ -14,9 +14,9 @@ Official documentation is here: https://dev.jamovi.org/
 
 - Install jamovi
 
--- Get the latest (1.6.3) https://www.jamovi.org/download.html  
+Get the latest (1.6.3) https://www.jamovi.org/download.html  
 
--- If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
+If using mac use this: https://www.jamovi.org/downloads/jamovi-unsigned.zip
 
 - Install `jmvtools` package with:
 
@@ -121,7 +121,8 @@ https://github.com/sbalci/ClinicoPathJamoviModule
 
 ## how to remove functions?
 
-delete these files:
+
+- delete these files:
 
 .  
 └── jamoviTemplate/  
@@ -135,7 +136,8 @@ delete these files:
 
 
 
-also delete this portion from `analysis` portion of `jamovi/0000.yaml`
+
+- also delete this portion from `analysis` portion of `jamovi/0000.yaml`
 
 ```yaml
   - title: New Function
