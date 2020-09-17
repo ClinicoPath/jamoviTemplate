@@ -89,6 +89,85 @@ suppressPackageStartupMessages(library('devtools'))
 - Let [me](https://github.com/sbalci) know how it goes :)
 
 
+## linux needs additional installations
+
+<details>
+ <summary>
+- linux codes
+ </summary>
+
+https://cran.r-project.org/bin/linux/ubuntu/README.html
+
+- flatpak  
+
+```
+flatpak install -y flathub org.freedesktop.Platform//19.08
+flatpak install -y flathub org.freedesktop.Sdk//19.08
+
+sudo apt install flatpak
+sudo apt install gnome-software-plugin-flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.jamovi.jamovi
+flatpak run org.jamovi.jamovi
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+flatpak install flathub org.freedesktop.Sdk//19.08
+flatpak install flathub org.freedesktop.Platform//19.08
+
+sudo apt install flatpak-builder
+flatpak-builder --run build_folder org.app.json
+
+```
+
+- R
+
+```
+sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
+sudo apt install r-base r-base-core r-recommended r-base-dev
+```
+
+- RStudio
+
+```
+sudo apt install '/home/serdarbalci/Downloads/rstudio-1.3.1073-amd64.deb'
+
+```
+
+- git
+
+```
+sudo apt install git-all
+```
+
+- gtk3
+
+```
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+```
+
+- V8 (I could not make this run)
+
+```
+sudo apt-get install libv8-dev
+sudo apt-get install libnode-dev
+
+
+sudo apt install build-essential
+gcc --version
+sudo apt-get install gfortran
+
+sudo apt-get install r-base-dev
+git status
+
+
+sudo apt install libcurl4-openssl-dev
+sudo apt install libxml2-dev
+
+```
+
+</details>
+
+
+
 ## add analysis
 
 ```r

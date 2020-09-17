@@ -20,7 +20,7 @@ analyses:
   - title: Age Pyramid
     name: agepyramid
     ns: jamoviTemplate
-    menuGroup: jamoviTemplate
+    menuGroup: Exploration
     menuSubgroup: ClinicoPath Descriptive Plots
     menuTitle: Age Pyramid
   - title: Example 0
